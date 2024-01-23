@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 700px) and (orientation: landscape){
+    .mainContainer{
+        /* background-color: #3AB4CD; */
+        height: auto;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .nonScrollable {
+        overflow: hidden;
+        /* width: 100%; */
+    }
+
+     .offerCardsMainContainer {
+        display: flex;
+        flex-direction: row;
+        padding: 0px 8px;
+        justify-content: space-around;
+        margin-top: 16px;
+     }
+    
+}

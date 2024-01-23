@@ -1,0 +1,80 @@
+@media (min-width: 700px) and (orientation: landscape){
+
+    .betaNavbarMainContainer {
+        height: fit-content;
+        width: auto;
+        background-color: #232F3E;
+        padding: 4px 6px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .subTextLabels {
+        font-family: "Oswald", sans-serif;
+        font-size: 14px;
+        margin-right: 8px;
+        color: #FFF;
+        padding: 12px 4px;
+        font-weight: 600;
+    }
+
+    .subTextLabels:hover {
+        border: 1px solid white;
+    }
+
+    .totalAdContainer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .totalAdContainer:hover {
+        border: 0.5px solid white;
+    }
+
+    .adLabel{
+        font-family: "Oswald", sans-serif;
+        font-weight: 800;
+        font-size: 16px;
+        color: #FFF;
+    }
+
+    .pseudoCircular {
+        background-color: #232F3E;
+        border-radius: 50px;
+        height: 55px;
+        width: 55px;
+        position: relative;
+        z-index: 2;
+        right: 4px;
+        /* border: 2px solid #232F3E; */
+    }
+
+    .joinPrimeContainer {
+        width: fit-content;
+        background-color: #1A98FF;
+        height: 100%;
+        border-radius: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .joinPrimeLabel {
+        font-family: "Oswald", sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        margin: 4px 20px 0px 6px;
+        color: #FFF;
+    }
+
+    .joinPrimeLabelBeta {
+        font-size: 10px;
+        font-family: "Oswald", sans-serif;
+        margin: 0px 20px 4px 6px;
+        color: #FFF;
+        font-weight: 600;
+    }
+
+}
