@@ -5,8 +5,9 @@
         height: 500;
         width: 24%;
         padding: 12px 6px;
-        border: 1.5px solid #CCCCCC;
+        border: 0.5px solid #CCCCCC;
         box-shadow: 1px 1px 8px #CCCCCC;
+
     }
 
     .offerItemsGrid {
@@ -26,6 +27,8 @@
     .offerImage {
         border: 1.5px solid #CCCCCC;
         border-radius: 10px;
+        /* width: 100px;
+        height: 100px; */
     }
 
     .eachOfferItem {
@@ -50,5 +53,16 @@
         font-size: 13px;
         font-weight: 600;
         padding: 12px 2px 4px 12px;        
+    }
+
+    .largeOfferImageContainer {
+        display: flex;
+        justify-content: center;
+        padding: 16px 16px;
+    }
+
+    .largeOfferImage {
+        border: 1.5px solid #CCCCCC;
+        border-radius: 10px;
     }
 }
